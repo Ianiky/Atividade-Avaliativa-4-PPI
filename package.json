@@ -1,0 +1,30 @@
+{
+  "name": "atividade-avaliativa-3-ppi",
+  "version": "1.0.0",
+  "description": "Pratica no desenvolvimentp de uma aplicação servidora HTTP para processar requisições do tipo POST com validação dos dados do formulário",
+  "keywords": [
+    "POST",
+    "HTTP"
+  ],
+  "homepage": "https://github.com/Ianiky/Atividade-Avaliativa-3-PPI#readme",
+  "bugs": {
+    "url": "https://github.com/Ianiky/Atividade-Avaliativa-3-PPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ianiky/Atividade-Avaliativa-3-PPI.git"
+  },
+  "license": "ISC",
+  "author": "Ianiky Lara",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
